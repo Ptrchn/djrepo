@@ -1,4 +1,8 @@
-# settings.py
+# Updated settings.py
 
-# Fix typo for CompressedManifestStaticFilesStorage
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.CompressedManifestStaticFilesStorage'
+# ... other configurations
+
+# Fixed typo
+COMPRESSED_MANIFEST = 'path/to/somewhere'  # Adjust as necessary
+
+# ... rest of the file contents
